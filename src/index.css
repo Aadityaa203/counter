@@ -5,9 +5,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.buttons{
+  background: rgb(117, 139, 97);
+  margin: 10px;
+  padding: 60px;
+  border-radius: 16px;
+}
+.input{
+  background: rgb(233, 122, 122);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 16px;
+  text-transform: capitalize;
+}
+.resetBtn{
+  background: red;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 16px;
+}
+.h1{
+  background: rgb(209, 12, 212);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 16px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  border: 80px solid rgb(12, 9, 193);
+  border-radius: 15px;
+  background-color: aqua;
+}
+.a1 {
+  margin: 10px;
+  background: rgb(193, 213, 14);
+  margin: 20px;
+  padding: 30px;
+  border-radius: 16px;
+}
+.a2{
+  margin: 10px;
+  background: rgb(3, 164, 213);
+  margin: 20px;
+  padding: 30px;
+  border-radius: 16px;
 }

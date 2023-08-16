@@ -40,15 +40,19 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <h1>React Counter: {this.state.count}</h1>
+        <h1 className="h1">React Counter: {this.state.count}</h1>
         <div className="buttons">
-          <AddOne onClick={this.addOne} />
-          <SubtractOne onClick={this.subtractOne} />
+          <div className="a1">
+            <AddOne onClick={this.addOne} />
+          </div>
+          <div className="a2">
+            <SubtractOne onClick={this.subtractOne} />
+          </div>
         </div>
-        <div>
+        <div className="input">
           <AddInputNum AddInputNum={this.addInputNum} />
         </div>
-        <div>
+        <div className="resetBtn">
           <ResetBtn onClick={this.resetNumber} />
         </div>
       </div>
