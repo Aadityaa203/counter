@@ -3,6 +3,7 @@ import AddOne from "./components/AddOne";
 import SubtractOne from "./components/SubtractOne";
 import ResetBtn from "./components/ResetBtn";
 import AddInputNum from "./components/AddInputNum";
+import SubtractInputNum from "./components/SubtractInputNum";
 
 class App extends Component {
   constructor(props) {
@@ -34,6 +35,13 @@ class App extends Component {
     let value = parseInt(number);
     this.setState({
       count: this.state.count + value,
+    });
+  };
+
+  subtractInputNum = (number) => {
+    let value = parseInt(number);
+    this.setState({
+      count: this.state.count - value,
     });
   };
 
